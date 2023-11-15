@@ -7,7 +7,7 @@
 ![](Screenshot_4.png) \
 Далее запустил два контейнера с aafire: \
 ![](Screenshot_8.png) \
-Создал сеть с помощью команды `docker network create myNetwork` \ 
+Создал сеть с помощью команды `docker network create myNetwork`, \
 добавил оба котейнера командами `docker network connect myNetwork magical_antonelli`, `docker network connect myNetwork gallant_germain` \
 и посмотрел настройки сети (`docker network inspect myNetwork`): \
 ![](Screenshot_9.png) \
